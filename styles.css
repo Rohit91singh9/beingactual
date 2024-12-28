@@ -43,9 +43,13 @@ p {
   color: white;
   padding: 10px 20px;
   border-radius: 25px;
-  width: 200px;
+  width: 250px;
   text-align: center;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -71,4 +75,12 @@ p {
 
 .whatsapp {
   background: #25D366;
+}
+
+.telegram {
+  background: #0088CC;
+}
+
+.link i {
+  font-size: 18px;
 }
