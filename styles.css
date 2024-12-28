@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 200px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+  background: #4267B2;
+}
+
+.instagram {
+  background: #C13584;
+}
+
+.twitter {
+  background: #1DA1F2;
+}
+
+.threads {
+  background: #333;
+}
+
+.youtube {
+  background: #FF0000;
+}
+
+.whatsapp {
+  background: #25D366;
+}
